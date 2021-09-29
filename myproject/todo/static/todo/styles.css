@@ -1,0 +1,43 @@
+body{
+    background: rgb(205, 182, 226);
+}
+
+#wrapper {
+    margin-top: 10%;
+    border: 2px;
+}
+
+#content{
+    background: beige;
+    padding: 25px;
+}
+
+#content > h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.t10{
+    margin-top: 10px;
+}
+
+.t20{
+    margin-top: 20px;
+}
+
+.todo-completed {
+    text-decoration: line-through;
+    text-decoration-style:wavy;
+    background: red;
+}
+
+footer{
+    margin-top: 20px;
+    color:white;
+}
+
+ul::after{
+    padding-inline-start: 0px;
+}
+}
